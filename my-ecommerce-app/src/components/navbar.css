@@ -1,0 +1,78 @@
+.navbar {
+    background-color: #efc5c5;
+    padding: 1rem;
+    box-shadow: 0 10px 10px rgba(177, 44, 117, 0.1);
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1d77d0;
+    text-shadow: #f0633c 1px 1px;
+  }
+  
+  /* Navbar Links */
+  .nav-link {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #343a40;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f0633c;
+  }
+  
+  /* Centering the Navbar Links */
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  /* Cart Icon and Badge */
+  .cart-container {
+    position: relative;
+    cursor: pointer;
+    margin-left: -1.5rem; /* Space between cart icon and toggle */
+    display: flex;
+    align-items: center;
+    left: -70px;
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem;
+    color: #343a40;
+
+  }
+  
+  .badge {
+    position: absolute;
+    top: 5px;
+    left: -35px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Collapse Button */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: #343a40;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  }
