@@ -5,7 +5,7 @@ import { Navbar, Nav, Badge } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { UserContext } from './UserContext';
 import { Cart4 } from 'react-bootstrap-icons';
-import './Navbar.css';
+import './navbar.css';
 
 
 function NavigationBar() {
